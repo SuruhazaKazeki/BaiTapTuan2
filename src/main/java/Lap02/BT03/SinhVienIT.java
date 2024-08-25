@@ -11,7 +11,7 @@ package Lap02.BT03;
 public class SinhVienIT extends SinhVien {
     public double diemjava,diemhtml,diemcss;
 
-    public SinhVienIT(double diemjava, double diemhtml, double diemcss, String hoten) {
+    public SinhVienIT(String hoten,double diemjava, double diemhtml, double diemcss ) {
         super(hoten, "IT");
         this.diemjava = diemjava;
         this.diemhtml = diemhtml;
